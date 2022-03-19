@@ -44,7 +44,3 @@ jobs:
         uses: everruler12/git-auto-commit-action@latest
         with:
           commit_message: Automatic backup
-
-      # https://stackoverflow.com/questions/67184368/prevent-scheduled-github-actions-from-becoming-disabled
-      # https://github.com/marketplace/actions/keepalive-workflow
-      - uses: gautamkrishnar/keepalive-workflow@master
